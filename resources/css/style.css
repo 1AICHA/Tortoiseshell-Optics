@@ -31,6 +31,22 @@ html {
   font-size: 1rem;
 }
 
+@media only screen and (max-width: 1024px) {
+  .container {
+    width: 100%;
+  }
+
+  .banner {
+    height: 22rem;
+  }
+
+  .bar {
+    top: 0rem;
+  }
+
+
+}
+
 .company {
   display: flex;
   align-items: center;
