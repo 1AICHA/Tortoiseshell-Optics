@@ -257,3 +257,18 @@ li a {
     font-size: 0.77rem;
   }
 }
+
+/*footer*/
+
+.footer {
+  background-color: azure;
+  margin-top: 5rem;
+  padding: 4rem 0 4rem 4rem;
+  display: flex;
+  align-items: center;
+}
+
+.footer img {
+  height: 1.5rem;
+  padding-right: 1rem;
+}
