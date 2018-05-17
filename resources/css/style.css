@@ -200,3 +200,31 @@ li a {
     padding-left: 0;
   }
 }
+
+/*About Company info*/
+
+.container .about {
+  display: flex;
+  justify-content: center;
+}
+
+.philosophy, .contact {
+  width: 35%;
+}
+
+.contact {
+  margin-left: 5%;
+}
+
+.philosophy h4, .contact h4 {
+  font-weight: bold;
+  font-size: 1rem;
+  background-color: cadetblue;
+  color: white;
+  width: 10rem;
+  padding: 0.5rem 0 0.5rem 1.25rem;
+}
+
+.philosophy p, .contact p {
+  padding-top: 1rem;
+}
