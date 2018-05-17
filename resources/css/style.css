@@ -249,8 +249,9 @@ li a {
   }
 
   .philosophy h4, .contact h4 {
-    width: 100%;
     text-align: center;
+    width: auto;
+
   }
 
   .philosophy p, .contact p {
