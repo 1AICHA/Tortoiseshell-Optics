@@ -43,8 +43,6 @@ html {
   .bar {
     top: 0rem;
   }
-
-
 }
 
 .company {
@@ -77,19 +75,23 @@ li a {
   display: none;
 }
 
+/*blue nav bar*/
+@media only screen and (max-width: 980px) {
+
+  nav ul {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: inherit;
+  }
+}
+
 /*Blue nav bar for mobile screen size*/
 @media only screen and (max-width: 480px) {
 
 .container {
   width: 100%;
-}
-
-nav ul {
-  display: none;
-}
-
-.mobile-nav {
-  display: inherit;
 }
 
 .company span {
