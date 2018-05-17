@@ -103,3 +103,26 @@ li a {
   background-position: 20%;
 }
 }
+
+
+
+/*headline*/
+
+.headline {
+  position: relative;
+  top: 10rem;
+  float: right;
+  left: 2rem;
+
+}
+
+.headline h2 {
+  background-color: white;
+  line-height: 1.2;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 1.5rem 5rem;
+  display: inline-block;
+
+
+}
