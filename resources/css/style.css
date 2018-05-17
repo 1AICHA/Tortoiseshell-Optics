@@ -30,7 +30,7 @@ html {
   color: white;
   font-size: 1rem;
 }
-
+/*Blue nav bar for tablet screen size*/
 @media only screen and (max-width: 1024px) {
   .container {
     width: 100%;
@@ -75,4 +75,29 @@ li a {
 
 .mobile-nav {
   display: none;
+}
+
+/*Blue nav bar for mobile screen size*/
+@media only screen and (max-width: 480px) {
+
+.container {
+  width: 100%;
+}
+
+nav ul {
+  display: none;
+}
+
+.mobile-nav {
+  display: inherit;
+}
+
+.company span {
+  display: none;
+}
+
+.banner {
+  height: 17rem;
+  background-position: 20%;
+}
 }
