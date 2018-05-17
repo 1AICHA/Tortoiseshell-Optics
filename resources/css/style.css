@@ -199,6 +199,11 @@ li a {
   .cyclu-x {
     padding-left: 0;
   }
+
+  .cyclus p {
+    padding-top: 1.54rem;
+    font-size: 0.77rem;
+  }
 }
 
 /*About Company info*/
