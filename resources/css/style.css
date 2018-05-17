@@ -272,3 +272,14 @@ li a {
   height: 1.5rem;
   padding-right: 1rem;
 }
+
+@media only screen and (max-width: 480px) {
+
+  .footer span {
+    display: none;
+  }
+
+  .footer {
+    justify-content: center;
+  }
+}
