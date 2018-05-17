@@ -150,6 +150,7 @@ li a {
     padding: 1rem 0;
     display: inherit;
     text-align: center;
+    font-size: 1rem;
   }
 }
 
@@ -186,4 +187,16 @@ li a {
 
 .cyclus img {
   width: 5rem;
+}
+
+@media only screen and (max-width: 480px) {
+  .container .cyclus {
+    padding: 3.77rem 0;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cyclu-x {
+    padding-left: 0;
+  }
 }
